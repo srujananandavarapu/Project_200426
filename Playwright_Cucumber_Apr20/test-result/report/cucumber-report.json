@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality-of-saucedemo-application;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 485979100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am on the login page",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1356373000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I login with valid credentials",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 138928699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see the home page",
+            "match": {
+              "location": "src\\test\\steps\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29751200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@regression",
+            "line": 3
+          },
+          {
+            "name": "@sanity",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality-of-saucedemo-application",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality of saucedemo application",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]

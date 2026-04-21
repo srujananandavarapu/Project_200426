@@ -1,0 +1,51 @@
+BDD
+====
+BDD: Behavioural driven developement
+
+in code:
+========
+expect(title).toBe('Login Page')
+
+English
+========
+Then I should see page title as "Login Page"
+
+Why we need to implement BDD?
+==============================
+To bridge the gap between:
+Business people (Product Owners, Managers)
+Developers
+Testers
+
+Everyone can understand the same test cases because they are written in plain language.
+
+Advantages of BDD
+===================
+✅ Easy to understand for non-technical people.
+✅ Improves collaboration between Business + Dev + QA.
+✅ Requirements are clear and in testable format.
+✅ Test cases are reusable and act as documentation.
+✅ Reduces miscommunication.
+
+Disadvantages of BDD
+=====================
+❌ Needs extra setup (Cucumber, feature files, step definitions).
+❌ Writing scenarios in plain English takes more time.
+❌ If not maintained properly → Scenarios become too many and confusing.
+❌ Sometimes technical teams feel it’s too much overhead 
+if business team is not really involved.
+
+configure  Cucumber
+====================
+npm i @cucumber/cucumber --save-dev
+or
+npm install @cucumber/cucumber -D
+
+Hooks
+=====
+BeforeAll => 1 time
+Before => n times depends on no of scenarios
+BeforeStep => n times depends on no of statements on each scenario
+AfterStep => n times depends on no of statements on each scenario
+After => n times depends on no of scenarios
+AfterAll => 1 time
